@@ -17,3 +17,34 @@ a{
     margin: 0 auto;
     width: 1140px;
 }
+
+.navbar{
+    background-color: black;
+    padding: 20px 0;
+}
+
+.navbar .container .navbar_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .container .navbar_box .navbar_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.navbar .container .navbar_box .navbar_list .navbar_item p{
+    color: white;
+}
+
+.navbar_box h3{
+    color: white;
+}
+
+.navbar .container .navbar_box .navbar_list .navbar_item2 button{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
