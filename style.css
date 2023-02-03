@@ -53,7 +53,7 @@ a{
     background-image: url('./IMAGE\ \(82\).png');
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-bottom: 500px;
+    padding-bottom: 200px;
 
 }
 
@@ -70,4 +70,72 @@ a{
     padding-top: 20px;
 }
 
+.what{
+  background-color: black;
 
+}
+
+.what .container .what_text{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.what .container .what_text h3,p{
+    color: white;
+}
+
+.what .container .what_box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right:auto ;
+    padding-bottom: 40px;
+}
+
+.what .container .what_box img{
+    width: 550px;
+    height: 650px;
+}
+
+.what .container .what_box .small_box1{
+    position: absolute;
+    width: 350px;
+    top: 70%;
+    left: 3%;
+}
+
+.what .container .what_box .small_box1 h5, .what_text{
+    color: white;
+}
+
+.what .container .what_box .small_box1 button{
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.what .container .what_box .small_box2 button{
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.what .container .what_box img{
+    width: 550px;
+    height: 650px;
+}
+
+.what .container .what_box .small_box2{
+    position: absolute;
+    width: 350px;
+    top: 70%;
+    left: 57%;
+}
+
+.what .container .what_box .small_box2 h5, .what_text{
+    color: white;
+}
