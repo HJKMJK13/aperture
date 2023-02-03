@@ -48,3 +48,26 @@ a{
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+.studio{
+    background-image: url('./IMAGE\ \(82\).png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 500px;
+
+}
+
+.studio .container .studio_box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding-top: 400px;
+}
+
+.studio .container .studio_box h5,h2,p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
